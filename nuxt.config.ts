@@ -7,4 +7,5 @@ export default defineNuxtConfig({
   tailwindcss: {
     // Options
   },
+  plugins: ['~/plugins/lucide.ts', '~/plugins/supabase.client.ts'],
 })

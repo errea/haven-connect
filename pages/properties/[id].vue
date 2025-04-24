@@ -2,7 +2,7 @@
     <div class="bg-white min-h-screen py-10 px-6 max-w-6xl mx-auto">
       <!-- Property Image -->
       <div class="rounded-xl overflow-hidden mb-6">
-        <img :src="property.image" class="w-full h-64 object-cover" />
+        <img :src="property.image" class="w-full h-[60rem] object-cover" />
       </div>
   
       <!-- Title & Location -->
@@ -48,7 +48,7 @@
     title: 'Modern Villa with Pool',
     location: 'Abuja, Nigeria',
     price: 120,
-    image: 'https://source.unsplash.com/featured/?villa',
+    image: '/images/space.jpg',
     description:
       'Enjoy your stay at this modern villa equipped with a pool, garden, and a full kitchen. Perfect for a weekend getaway or extended vacation.',
     amenities: ['WiFi', 'Kitchen', 'Pool', 'Parking', 'Air Conditioning'],

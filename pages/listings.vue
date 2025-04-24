@@ -35,7 +35,7 @@
             <div class="flex justify-between items-center">
               <span class="text-blue-600 font-bold">${{ property.price }}/night</span>
               <NuxtLink
-                :to="`/listing/${property.id}`"
+                :to="`/properties/${property.id}`"
                 class="text-sm text-blue-500 hover:underline"
               >
                 View
@@ -57,23 +57,43 @@
       title: 'Cozy Studio Apartment',
       location: 'Lagos, Nigeria',
       price: 45,
-      image: 'https://source.unsplash.com/featured/?apartment',
+      image: '/images/living.jpg',
     },
     {
       id: 2,
       title: 'Modern Villa with Pool',
       location: 'Abuja, Nigeria',
       price: 120,
-      image: 'https://source.unsplash.com/featured/?villa',
+      image: '/images/space.jpg',
     },
     {
       id: 3,
       title: 'Beachfront Bungalow',
       location: 'Lekki, Nigeria',
       price: 80,
-      image: 'https://source.unsplash.com/featured/?beachhouse',
+      image: '/images/spa.jpg',
     },
-    // Add more properties as needed
+    {
+      id: 2,
+      title: 'Modern Villa with Pool',
+      location: 'Abuja, Nigeria',
+      price: 120,
+      image: '/images/space.jpg',
+    },
+    {
+      id: 3,
+      title: 'Beachfront Bungalow',
+      location: 'Lekki, Nigeria',
+      price: 80,
+      image: '/images/spa.jpg',
+    },
+    {
+      id: 1,
+      title: 'Cozy Studio Apartment',
+      location: 'Lagos, Nigeria',
+      price: 45,
+      image: '/images/living.jpg',
+    },
   ]);
   
   const filteredProperties = computed(() => {
