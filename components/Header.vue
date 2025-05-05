@@ -4,7 +4,7 @@
             <NuxtLink to="/" class="text-3xl font-bold text-yellow-600">HavenConnect</NuxtLink>
             <nav class="space-x-6 hidden md:block">
                 <NuxtLink to="/listings" class="text-gray-700 hover:text-yellow-600">Browse</NuxtLink>
-                <NuxtLink to="/explore" class="text-gray-700 hover:text-yellow-600">Explore</NuxtLink>
+                <NuxtLink to="/properties" class="text-gray-700 hover:text-yellow-600">Explore</NuxtLink>
                 <NuxtLink to="/details" class="text-gray-700 hover:text-yellow-600">Available Properties</NuxtLink>
                 <NuxtLink to="/auth" class="text-gray-700 hover:text-yellow-600">Login</NuxtLink>
             </nav>
