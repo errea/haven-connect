@@ -22,22 +22,26 @@
             <div class="flex flex-col items-center gap-3">
                 <CalendarDays class="w-10 h-10 text-yellow-700" />
                 <div class="text-xl font-semibold text-gray-700">Dynamic Booking</div>
-                <p class="text-sm text-gray-500">Real-time availability and booking updates</p>
+                <p class="text-sm text-gray-500">Real-time availability and handling booking updates  verified short-term guests</p>
+                <p class="text-sm text-gray-500">Track and Verified short-term guests</p>
             </div>
             <div class="flex flex-col items-center gap-3">
                 <ShieldCheck class="w-10 h-10 text-yellow-700" />
                 <div class="text-xl font-semibold text-gray-700">Verified Hosts</div>
                 <p class="text-sm text-gray-500">Trusted and background-checked landlords</p>
+                <p class="text-sm text-gray-500">A commission-based model and a fixed rent monthly</p>
             </div>
             <div class="flex flex-col items-center gap-3">
                 <ShieldCheck class="w-10 h-10 text-yellow-700" />
                 <div class="text-xl font-semibold text-gray-700">Seemless Connect</div>
-                <p class="text-sm text-gray-500">Trusted and background-checked landlords</p>
+                <p class="text-sm text-gray-500">Hassale free connect</p>
+                <p class="text-sm text-gray-500">See Lisitings and get value for money</p>
             </div>
             <div class="flex flex-col items-center gap-3">
                 <MessageCircle class="w-10 h-10 text-yellow-700" />
                 <div class="text-xl font-semibold text-gray-700">Instant Communication</div>
                 <p class="text-sm text-gray-500">Chat directly with your host anytime</p>
+                <p class="text-sm text-gray-500">Management paymemts</p>
             </div>
         </div>
 
@@ -87,10 +91,11 @@
                 </div>
                 <div>
                     <h4 class="font-semibold mb-3">Explore</h4>
-                    <ul class="text-sm text-gray-400 space-y-2">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Listings</a></li>
-                        <li><a href="#">Hosts</a></li>
+                    <ul class="text-sm text-gray-400 space-y-2 flex flex-col">
+                        <NuxtLink to="/" class="hover:text-yellow-600">Home</NuxtLink>
+                        <NuxtLink to="/listings" class="hover:text-yellow-600">Listings</NuxtLink>
+                        <NuxtLink to="/properties" class="hover:text-yellow-600">Host</NuxtLink>
+                        <NuxtLink to="/details" class="hover:text-yellow-600">Available Properties</NuxtLink>
                         <li><a href="#">Help</a></li>
                     </ul>
                 </div>
