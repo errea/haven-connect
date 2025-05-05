@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@fullcalendar/daygrid": "^6.1.17",
+    "@fullcalendar/core": "^6.1.17",
     "@fullcalendar/interaction": "^6.1.17",
     "@fullcalendar/vue3": "^6.1.17",
     "@supabase/supabase-js": "^2.49.4",

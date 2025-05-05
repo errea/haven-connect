@@ -10,7 +10,7 @@
   
   <script setup>
   import FullCalendar from '@fullcalendar/vue3'
-  import dayGridPlugin from '@fullcalendar/daygrid'
+  // import dayGridPlugin from '@fullcalendar/daygrid'
   import interactionPlugin from '@fullcalendar/interaction'
   
   const calendarOptions = {
@@ -37,5 +37,5 @@
   </script>
   
   <style>
-  @import "@fullcalendar/daygrid/main.css";
+  /* @import "@fullcalendar/daygrid/main.css"; */
   </style>
