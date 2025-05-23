@@ -48,6 +48,8 @@ bun run dev
 
 Build the application for production:
 
+https://haven-connect.netlify.app/
+
 ```bash
 # npm
 npm run build
