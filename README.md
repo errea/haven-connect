@@ -20,6 +20,12 @@ yarn install
 bun install
 ```
 
+![de3](https://github.com/user-attachments/assets/b2ea1a0e-2bc8-407e-a609-de1f9bbdf5e4)
+![de2](https://github.com/user-attachments/assets/d4acd369-85fb-4415-b300-5e097af56919)
+![de](https://github.com/user-attachments/assets/e2a676c0-1f68-49c0-a126-6cb5551e36a3)
+![Landlord Dashboard Overview](https://github.com/user-attachments/assets/aaa0960f-1ae5-498e-8edc-3c51cda0ae92)
+
+
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
